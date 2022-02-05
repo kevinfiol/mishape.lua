@@ -1,6 +1,6 @@
 # mishape.lua
 
-A property validator for associative array/hash-like tables. A port of [https://github.com/kevinfiol/mishape](mishape) to Lua.
+A property validator for associative array/hash-like tables. A port of [mishape](https://github.com/kevinfiol/mishape) to Lua.
 
 ```lua
 local mishape = require 'mishape'
