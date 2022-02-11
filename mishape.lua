@@ -54,6 +54,8 @@ local MAP = {
 
 -- aliases
 MAP.fn = MAP['function']
+MAP.undefined = MAP['nil']
+MAP.defined = MAP['notnil']
 
 local addError = function(res, v_type, x, id)
     if res.ok then res.ok = false end
