@@ -52,6 +52,9 @@ local MAP = {
     object = function (x) return type(x) == 'table' and not isArray(x) end
 }
 
+-- aliases
+MAP.fn = MAP['function']
+
 local addError = function(res, v_type, x, id)
     if res.ok then res.ok = false end
 
